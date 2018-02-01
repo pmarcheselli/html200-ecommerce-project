@@ -50,7 +50,7 @@ nav ul li {
 nav ul li a {
   float: left;
   width: 32%;
-  padding: 0.75rem 2rem;
+  padding: 0.75rem;
   text-align: center;
   text-decoration: none;
   color: white;
@@ -82,11 +82,13 @@ header img {
 
 h1 {
   color: #3d7fcf;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: bolder;
 }
 
 h1 .logo-w {
-  font-size: 3.5rem;
+/*  font-size: 3.5rem;*/
+  font-size: 3rem;
   color: #3d7fcf;
 }
 
@@ -104,12 +106,16 @@ h1 .logo-w {
 /**************** ASIDE ****************/
 
 aside {
+  display: block;
   clear: both;
   float: left;
-  width: 25%;
-  padding: 0.75rem 1rem;
+  width: 20%;
+  padding: 4rem 1rem;
 }
 
+.aside-font {
+  font-size: 0.85rem;
+}
 
 input[type="submit"] {
   padding: .25rem;
@@ -123,18 +129,55 @@ input[type="submit"] {
 /*********** PRODUCTS SECTION ***********/
 
 section {
+  display: block;
+  float: right;
+  width: 80%;
   padding: 0 .75rem;
 }
 
 h2 {
   padding-top: 1.5rem;
-  font-size: 2rem;
+  padding-bottom: 1rem;
+/*  font-size: 2rem;*/
+  font-size: 1.5rem;
+  font-weight: bold; 
   text-align: center;
   color: #2d2d2d;
 }
 
+.item-container {
+  width: 75%; 
+}
+
+.item-module {
+  width: 35%; 
+  display: block;
+  float: left; 
+  border: 1px solid black;
+  margin: 1rem 0.5rem;
+}
+
 h3 {
-  font-size: 1.2rem;
+/*  font-size: 1.2rem;*/
+  font-size: 0.95rem;
+  font-weight: bold;
   text-align: center;
+  margin: 0.75rem;
   color: #2d2d2d;
+}
+
+section img {
+  display: block;
+  margin: auto;
+  max-height: 16rem;
+  max-width: 10rem; 
+}
+
+section p {
+  font-size: 0.75rem; 
+  margin: 0.75rem;
+}
+
+.price {
+  margin-bottom: 0.75rem;
 }
