@@ -35,7 +35,6 @@ img {
 
 nav {
   width: 100%;
-  margin: 0 auto;
 }
 
 nav ul {
@@ -70,9 +69,14 @@ nav a:hover {
 
 /**************** HERO *****************/
 
+.hero {
+  width: 100%;
+}
+
 header img {
+  display: block;
   max-height: 6rem;
-  
+  float: left; 
 }
 
 h1 .logo-w {
@@ -80,7 +84,22 @@ h1 .logo-w {
   color: #3d7fcf;
 }
 
+h1 {
+  float: left;
+  color: #3d7fcf;
+  font-size: 1.25rem;
+  font-weight: 
+}
+
+
 /**************** ASIDE ****************/
+
+aside {
+  clear: both;
+  float: left;
+  width: 25%;
+}
+
 
 input[type="submit"] {
   padding: .25rem;
