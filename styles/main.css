@@ -145,22 +145,26 @@ h2 {
 }
 
 .item-container {
-  width: 100%; 
-  display: block;
-  float: left; 
-  border: 1px solid black; /*delete this */ 
+  max-width: 68rem;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-.item-module {
-  display: inline-block;
-  float: left; 
-  border: 1px solid black;
+.three-col-grid {
+  width: 31%;
+  float: left;
+  border: 1px solid grey;
   margin: 0.5rem;
 }
 
+.three-col-grid:after {
+  display:table;
+  clear: both;
+  content: ''; 
+}
+
 h3 {
-/*  font-size: 1.2rem;*/
-  font-size: 0.85rem;
+  font-size: 1rem;
   font-weight: bold;
   text-align: center;
   margin: 0.75rem;
@@ -170,12 +174,11 @@ h3 {
 section img {
   display: block;
   margin: auto;
-  max-height: 14rem;
-  max-width: 8rem; 
+  max-height: 18rem;
+  min-width: 2rem;
 }
 
 section p {
-  font-size: 0.65rem; 
+  font-size: 0.75rem; 
   margin: 0.75rem;
-  max-width: 12rem;
 }
