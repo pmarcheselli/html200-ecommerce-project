@@ -1,3 +1,11 @@
+/*********** GLOBAL STYLES *************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-size: 100%;
   font-family: Montserrat, "Open Sans", Helvetica, Arial, sans-serif;
@@ -14,20 +22,62 @@ img {
   max-height: 20rem;
 }
 
+
+/*********** CONTENT WRAPPER ************/
+
+.content-wrapper {
+  width: 100%;
+  margin: auto;
+}
+
+
 /***************** NAV *****************/
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #3d7fcf;
+}
+
+nav ul li {
+  display: block;
+}
+
+nav ul li a {
+  float: left;
+  width: 32%;
+  padding: 0.75rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
 
 nav a:hover {
   text-decoration: underline;
+}
+
+.cart-info {
+  color: white;
+  padding: 0.75rem;
+  width: 4%;
+  float: right;
 }
 
 /**************** HERO *****************/
 
 header img {
   max-height: 6rem;
+  
 }
 
 h1 .logo-w {
   font-size: 3.5rem;
+  color: #3d7fcf;
 }
 
 /**************** ASIDE ****************/
