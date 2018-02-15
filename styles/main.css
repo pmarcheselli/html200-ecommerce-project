@@ -38,7 +38,6 @@ nav {
 
 nav ul {
   display: flex;
-  flex-flow: row-wrap;
   justify-content: space-around;
   align-items: center;
   background-color: #3d7fcf;
@@ -58,7 +57,6 @@ nav a:hover {
 .cart-info {
   color: white;
   padding: 0.75rem;
-  flex-direction: 
 }
 
 /**************** HERO *****************/
@@ -68,12 +66,6 @@ nav a:hover {
   flex-flow: row wrap;
   justify-content: flex-start;
   align-items: flex-end;
-/*
-  display: flex;
-  flex-flow: row wrap;
-  align-content: space-between;
-  justify-content: flex-start;
-*/
 }
 
 header img {
