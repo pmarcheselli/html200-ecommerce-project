@@ -17,9 +17,8 @@ p {
   color: #2d2d2d;
 }
 
-/* TODO: size images manually so this is not necessary */
 img {
-  max-height: 20rem;
+  max-width: 100%;
 }
 
 
@@ -34,22 +33,18 @@ img {
 /***************** NAV *****************/
 
 nav {
-  width: 100%;
+  width: auto;
 }
 
 nav ul {
-  list-style-type: none;
-  overflow: hidden;
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: space-around;
+  align-items: center;
   background-color: #3d7fcf;
 }
 
-nav ul li {
-  display: block;
-}
-
 nav ul li a {
-  float: left;
-  width: 32%;
   padding: 0.75rem;
   text-align: center;
   text-decoration: none;
@@ -63,45 +58,50 @@ nav a:hover {
 .cart-info {
   color: white;
   padding: 0.75rem;
-  width: 4%;
-  float: right;
+  flex-direction: 
 }
 
 /**************** HERO *****************/
 
-.hero {
-  width: 100%;
-  padding: 1rem;
+.hero { 
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+/*
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: flex-start;
+*/
 }
 
 header img {
-  display: block;
-  max-height: 6rem;
-  float: left; 
+  padding: 1rem;
 }
 
 h1 {
   color: #3d7fcf;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bolder;
 }
 
 h1 .logo-w {
-/*  font-size: 3.5rem;*/
-  font-size: 3rem;
+  font-size: 3.5rem;
   color: #3d7fcf;
 }
 
 .logo-spacing-1 {
-  display: block;
-  float: left;
+  padding: 1rem 0 1rem 0;
 }
 
 .logo-spacing-2 {
-  display: block;
-  clear: right;
+  padding: 1rem 0 1rem 1rem;
 }
 
+.logo-spacing-3 {
+  padding: 1rem;  
+}
 
 /**************** ASIDE ****************/
 
@@ -137,7 +137,6 @@ section {
 h2 {
   padding-top: 1.5rem;
   padding-bottom: 1rem;
-/*  font-size: 2rem;*/
   font-size: 1.5rem;
   font-weight: bold; 
   text-align: center;
