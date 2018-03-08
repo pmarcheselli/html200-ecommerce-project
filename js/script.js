@@ -71,7 +71,7 @@ function updateCart(items){
   //else - if yes, remove item
   if(i == -1){
     cart.push(items)
-    console.log("You have added " + " " + items + " to your cart")
+    console.log("You have added " + items + " to your cart")
     console.log("You have " + cart.length + " product(s) in your cart")
   } else {
     cart.splice(i, 1)
