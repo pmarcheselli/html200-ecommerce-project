@@ -7,6 +7,10 @@ function capture(){
   console.log("Thank you " + email + " for signing up for our newsletter!")
 }
 
+// Global variables for shopping cart
+
+var cart = [ "Reversible Plaid", "Fringed Plaid", "Multi Color", "Ombre Infinity", "Wool Cable Knit", "Etro Paisley-Print Silk" ]
+
 
 // As an extra challenge, you can build the product listings
 // by looping over this array and creating HTML for each element.
