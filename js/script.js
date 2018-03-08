@@ -1,17 +1,3 @@
-// Form handler for email sign up
-
-function capture(){
-  event.preventDefault()
-  console.log("Email submitted")
-  var email = document.custInfo.email.value
-  console.log("Thank you " + email + " for signing up for our newsletter!")
-}
-
-// Global variables for shopping cart
-
-var cart = [ "Reversible Plaid", "Fringed Plaid", "Multi Color", "Ombre Infinity", "Wool Cable Knit", "Etro Paisley-Print Silk" ]
-
-
 // As an extra challenge, you can build the product listings
 // by looping over this array and creating HTML for each element.
 // This will be best accomplished after we do lesson 09.
@@ -66,3 +52,27 @@ var products = [
   }
 ]
 
+// Form handler for email sign up
+
+function capture(){
+  event.preventDefault()
+  console.log("Email submitted")
+  var email = document.custInfo.email.value
+  console.log("Thank you " + email + " for signing up for our newsletter!")
+}
+
+var cart = [ 
+]
+
+// Function to add/remove items from cart
+function updateCart(items){
+  var i = cart.indexOf(items) 
+  //check to see if item is in cart & add if not in cart
+  if(i == -1){
+    cart.push(items)
+    console.log("You have added " + cart.length + " " + items)
+  } else {
+    cart.splice(i, 1)
+    console.log("You have removed " + items + " from your cart")
+  }
+}
