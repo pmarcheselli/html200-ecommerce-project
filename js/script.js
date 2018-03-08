@@ -67,7 +67,8 @@ var cart = [
 // Function to add/remove items from cart
 function updateCart(items){
   var i = cart.indexOf(items) 
-  //check to see if item is in cart & add if not in cart
+  //check to see if item is in cart & if not, add to cart
+  //else - if yes, remove item
   if(i == -1){
     cart.push(items)
     console.log("You have added " + cart.length + " " + items)
