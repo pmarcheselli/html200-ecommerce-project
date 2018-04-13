@@ -69,4 +69,29 @@ Lesson 09:
 Each weekly assignment will be graded independently. There will not be a final grade for the entire project.
 
 ## Testing
-[update this section with information about the testing steps you took to ensure site quality]
+
+Target Audience:
+Winter Wear Warehouse is an online-only e-commerce company selling hats, gloves, and scarves for both men and women. The target audience is primarily customers looking to buy winter gear at affordable prices. The website's aesthetic is simple and straight-to-the-point shopping putting its main focus on the products and the excellent prices Winter Wear Wearhouse can pass on to its customers.
+
+Website Audience Classification:
+Since the target audience for the website is primarily customers shopping directly on Winter Wear Wearhouse for winter gear, it is then further broken down to customers shopping for themselves and customers shopping for others (for family members or gifts). These customers will most likely be between the ages of 25-55 and most likely will be female. These customers are looking to buy affordable winter gear and want a simple website with very little extra gimmicks - they are not looking for social media or extra user interaction, simply to buy the winter gear at great deals. These customers will most likely be low-income to middle-income earners and most likely use older devices. Winter Wear Warehouse's users are located in regions of the United States of America that experience winter weather - from the Pacific Northwest to the Mid-West and to the Northeast Coast. Users are most likely to find Winter Wear Warehouse through a Google search and customer retention is maintained through a weekly newsletter highlighting new deals. 
+
+Audience Devices:
+Winter Wear Warehouse's target audience is identified as shoppers most likely using older devices.  These devices range from older iPhones to older tablets & PCs. Users are primarily using their mobile devices and tablets to shop so a responsive site that works for these devices is necessary. 
+
+Device Testing:
+Winter Wear Warehouse was tested using Responsive Design Checker (responsivedesignchecker.com) to check the functionality across various devices.
+
+On older iPhone 3/4/4s (320x480 resolution) and iPhone 5/5s (320x568 resolution) models, the website was found to be fully responsive with clear, and easy to read content and the straight-to-the-point shopping target customers want. The "Add to cart/Remove from cart" button is both very accessible and visible and makes buying products easy.  Images scale down properly for mobile. The email sign up is in a very ideal location and all website categories are easy to find on the nav bar. 
+
+Testing was also done on older iPad 2 (1024x768 resolution) and iPad 3 (2048x1536 resolution) models and additionally a standard PC monitor (1366x768 resolution) and same results were found. These screen sizes were not readily available on Responsive Design Checker but were found from a Google search and then input to Responsive Design Checker to verify functionality and site quality. 
+
+Overall, testing showed that Winter Wear Warehouse website displays properly on all of its intended devices.
+
+Performance Testing:
+Website Page Test (WebPageTest.org) was used to check the site's performance across various browsers. User demographic research showed that users were more likely to use Internet Explorer 10 (IE10) and iOS 10 on older Apple devices. 
+
+On IE10, Winter Wear Warehouse loaded fully in 3.5s with images making up the largest percentage of requests and bytes sent. 
+Functionality was also checked on a iPhone 5c running iOS 10 and the website loaded in 3.29s with images again making up the largest percentage of requests and bytes sent. When checked on Chrome, the site was found to load the fastest (at 2.63s) although, Winter Wear Warehouse's users are most likely to not be accessing the site via Chrome.
+
+Overall, performance testing of Winter Wear Warehouse has yielded satisfactory results in load time. 
